@@ -18,4 +18,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # Start the Pyramid web server
-CMD ["python", "server.py"]
+CMD ["python", "resume.py"]

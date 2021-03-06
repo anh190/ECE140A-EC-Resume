@@ -5,7 +5,7 @@ services:
   web-server:
     build:
       context: ./server
-    command: gunicorn -w 4 --bind 0.0.0.0:5000 reverse_proxy:app
+    command: gunicorn -w 4 --bind 0.0.0.0:5000 resume:app
     ports:
       - 5000:5000       # Web server port
 
